@@ -5,7 +5,8 @@
 }
 body {
   background-color: hsl(226, 43%, 10%);
-  margin: 5%;
+  margin: 25px;
+
   justify-content: center;
   align-items: center;
 }
@@ -37,7 +38,8 @@ body {
   border-radius: 20px;
   width: 270px;
   padding: 10%;
-  position: absolute;
+  position: relative;
+  z-index: 100;
 }
 .container .side .top small {
   display: block;
@@ -52,7 +54,7 @@ body {
 }
 
 .container .side .bar {
-  height: 260px;
+  height: 240px;
   background-color: hsl(235, 46%, 20%);
   position: absolute;
   width: 270px;
@@ -88,7 +90,7 @@ body {
   background-color: hsl(235, 46%, 20%);
   margin-top: 17%;
   color: whitesmoke;
-  height: 30vh;
+  height: 27vh;
   width: 100%;
   border-radius: 20px;
   position: absolute;
@@ -146,7 +148,7 @@ body {
   background-color: hsl(235, 46%, 20%);
   margin-top: 17%;
   color: whitesmoke;
-  height: 30vh;
+  height: 27vh;
   width: 100%;
   border-radius: 20px;
   position: absolute;
@@ -170,12 +172,17 @@ body {
   opacity: 1;
 }
 .container .play .play-cont h1 {
-  margin: 10%;
+  margin-top: 10%;
+  margin-left: 10%;
   font-size: 4em;
 }
 .container .play .play-cont small {
   margin: 0 10%;
   font-size: 1em;
+}
+.container .play .play-cont .last {
+  display: flex;
+  flex-direction: column;
 }
 .container .study {
   background-color: hsl(348, 100%, 68%);
@@ -195,7 +202,7 @@ body {
   background-color: hsl(235, 46%, 20%);
   margin-top: 17%;
   color: whitesmoke;
-  height: 30vh;
+  height: 27vh;
   width: 100%;
   border-radius: 20px;
   position: absolute;
@@ -219,12 +226,17 @@ body {
   opacity: 1;
 }
 .container .study .study-cont h1 {
-  margin: 10%;
+  margin-top: 10%;
+  margin-left: 10%;
   font-size: 4em;
 }
 .container .study .study-cont small {
   margin: 0 10%;
   font-size: 1em;
+}
+.container .study .study-cont .last {
+  display: flex;
+  flex-direction: column;
 }
 .container .excercise {
   background-color: hsl(145, 58%, 55%);
@@ -244,7 +256,7 @@ body {
   background-color: hsl(235, 46%, 20%);
   margin-top: 17%;
   color: whitesmoke;
-  height: 30vh;
+  height: 27vh;
   width: 100%;
   border-radius: 20px;
   position: absolute;
@@ -268,12 +280,17 @@ body {
   opacity: 1;
 }
 .container .excercise .excercise-cont h1 {
-  margin: 10%;
+  margin-top: 10%;
+  margin-left: 10%;
   font-size: 4em;
 }
 .container .excercise .excercise-cont small {
   margin: 0 10%;
   font-size: 1em;
+}
+.container .excercise .excercise-cont .last {
+  display: flex;
+  flex-direction: column;
 }
 .container .social {
   background-color: hsl(264, 64%, 52%);
@@ -292,7 +309,7 @@ body {
   background-color: hsl(235, 46%, 20%);
   margin-top: 17%;
   color: whitesmoke;
-  height: 30vh;
+  height: 27vh;
   width: 100%;
   border-radius: 20px;
   position: absolute;
@@ -316,12 +333,30 @@ body {
   opacity: 1;
 }
 .container .social .social-cont h1 {
-  margin: 10%;
+  margin-top: 10%;
+  margin-left: 10%;
   font-size: 4em;
 }
 .container .social .social-cont small {
   margin: 0 10%;
   font-size: 1em;
+}
+.container .social .social-cont .last {
+  display: flex;
+  flex-direction: column;
+}
+.container .study .study-cont h1 {
+  margin-top: 10%;
+  margin-left: 10%;
+  font-size: 4em;
+}
+.container .study .study-cont small {
+  margin: 0 10%;
+  font-size: 1em;
+}
+.container .study .study-cont .last {
+  display: flex;
+  flex-direction: column;
 }
 .container .care {
   background-color: hsl(43, 84%, 65%);
@@ -340,7 +375,7 @@ body {
   background-color: hsl(235, 46%, 20%);
   margin-top: 17%;
   color: whitesmoke;
-  height: 30vh;
+  height: 27vh;
   width: 100%;
   border-radius: 20px;
   position: absolute;
