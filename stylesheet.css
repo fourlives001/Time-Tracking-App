@@ -16,7 +16,7 @@ body {
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: 310px;
   padding: 35px;
-  gap: 0;
+  column-gap: 20px;
 }
 .container .side {
   height: 550px;
